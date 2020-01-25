@@ -1,0 +1,50 @@
+.TopmenuItem{
+    margin:10px 0;
+    box-sizing: border-box;
+    display:block;
+    width:100%;
+}
+
+.TopmenuItem a{
+    color:black;
+    font-weight: bold;
+    text-decoration: none;
+    width:100%;
+    box-sizing: border-box;
+    display:block;
+
+}
+
+.TopmenuItem a:hover,
+.TopmenuItem a:active,
+.TopmenuItem a.active{
+    color:pink;
+}
+
+@media (min-width: 500px){
+  .TopmenuItem{
+    margin:0;
+    display:flex;
+    height:100%;
+    width: auto;
+    align-items:center;
+}
+
+.TopmenuItem a{
+    color:black;
+    font-weight: bold;
+    text-decoration: none;
+    height:100%;
+    padding: 25px 8px;
+    border-bottom:4px solid transparent;
+
+}
+
+.TopmenuItem a:hover,
+.TopmenuItem a:active,
+.TopmenuItem a.active{
+    background-color: rgb(95, 115, 151);
+    border-bottom: 1px solid darkgoldenrod;
+    color:rgb(233, 221, 57);
+}  
+}

@@ -1,0 +1,73 @@
+.footer{
+    height:auto;
+    width:100%;
+    /* position: sticky; */
+    background-color:#333;
+    bottom:0;
+    left:0;
+    align-items: center;
+    box-sizing: border-box;
+    z-index: 90;
+    color:white;
+}
+
+.FirstDiv{
+    border-bottom: 1px solid white;
+    padding: 25px 180px;
+    width:80%;
+    /* display:flex;
+    justify-content: space-between; */
+}
+
+.SecondDiv{
+    width:20%;
+    padding: 25px 200px;
+    border-bottom: 1px solid rgb(245, 183, 69);
+}
+
+.ThirdDiv{
+    padding: 25px 180px;
+    width:80%;
+    /* display:flex;
+    justify-content: space-between; */
+}
+
+.ForthDiv{
+    background-color: rgb(245, 183, 69);
+    width:20%;
+    padding: 25px 200px;
+}
+
+.FooterButton{
+    background-color: rgb(245, 183, 69);
+    color:black;
+    font-weight: bold;
+    border: 1px solid rgb(245, 183, 69);
+    border-radius: 2px;
+    padding: 5px 20px;
+}
+
+.closure{
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+}
+
+.tables{
+    font-size: 12px;
+    text-align: left;
+    border-spacing: 50px 5px;
+}
+
+.dv{
+    padding: 10px 180px;
+    width:80%;
+    font-size: 13px;
+    background-color: rgb(78, 76, 76);
+}
+
+.dvv{
+    background-color: rgb(245, 183, 69);
+    width:20%;
+    padding: 10px 200px;
+}

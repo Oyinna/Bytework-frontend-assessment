@@ -1,0 +1,60 @@
+.Logo{
+    height:20px;
+}
+
+.PremierLeagueTable{
+    height:auto;
+    width:100%;
+    align-items: center;
+    padding: 0 180px;
+    margin-bottom: 10px;
+}
+
+.PremierLeague{
+    height:100px;
+    width:100%;
+    position:fixed;
+    background-color: black;
+    top:107px;
+    left:0;
+    display:flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding: 0 180px;
+    /* box-sizing: border-box; */
+    z-index: 1;
+    color:white;
+}
+
+.League{
+    position: static;
+    margin-top: 100px;
+}
+
+.Premier{
+    display:flex;
+    padding: 0 180px;
+    font-size: small;
+    font-weight: bold;
+    color:rgb(95, 115, 151);
+}
+
+.Table{
+    margin-right: 10px;
+    background-color: rgb(95, 115, 151);
+    border-bottom: 2px solid darkgoldenrod;
+    padding: 3px 15px;
+    color:white
+}
+
+.Fixtures{
+    margin-right: 10px;
+}
+
+.Border{
+    height: 10px;
+    width: 1px;
+    background-color:rgb(95, 115, 151);
+    margin-right: 15px;
+    padding:2px 0;
+}
